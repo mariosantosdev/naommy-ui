@@ -1,0 +1,9 @@
+{
+    "name": "@mariosantosdev/eslint-config",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "@rocketseat/eslint-config": "^1.2.0",
+        "eslint": "^8.36.0"
+    }
+}
