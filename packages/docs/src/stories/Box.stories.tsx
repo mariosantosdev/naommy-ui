@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, BoxProps } from '@naommyUI/react'
+import { Box, BoxProps, Text } from '@naommyUI/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -9,9 +9,15 @@ export default {
   args: {
     children: (
       <>
-        <span>Content...</span>
+        <Text>Content...</Text>
       </>
     ),
+  },
+
+  argTypes: {
+    children: {
+      control: { type: null },
+    },
   },
 } as Meta<BoxProps>
 
