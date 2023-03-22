@@ -1,8 +1,5 @@
-import { styled } from '../styles'
 import * as RadixAvatar from '@radix-ui/react-avatar'
-import { User } from 'phosphor-react'
-import { ComponentProps } from './@types/generic'
-import React from 'react'
+import { styled } from '../../styles'
 
 export const AvatarContainer = styled(RadixAvatar.Root, {
   borderRadius: '$full',
@@ -52,14 +49,3 @@ export const AvatarFallback = styled(RadixAvatar.Fallback, {
     height: '50%',
   },
 })
-
-export interface AvatarProps extends ComponentProps<typeof AvatarImage> {}
-
-export const Avatar: React.FC<AvatarProps> = (props) => (
-  <AvatarContainer>
-    <AvatarImage {...props} />
-    <AvatarFallback delayMs={600}>
-      <User />
-    </AvatarFallback>
-  </AvatarContainer>
-)
