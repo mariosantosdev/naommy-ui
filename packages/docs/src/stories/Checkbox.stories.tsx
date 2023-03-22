@@ -16,6 +16,14 @@ export default {
       </Box>
     ),
   ],
+  args: {
+    disabled: false,
+  },
+  argTypes: {
+    disabled: {
+      control: { type: 'boolean' },
+    },
+  },
 } as Meta<CheckboxProps>
 
 export const Primary: StoryObj<CheckboxProps> = {}
