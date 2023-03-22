@@ -1,5 +1,5 @@
 {
-  "name": "@mariosantosdev/react",
+  "name": "@naommyUI/react",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@mariosantosdev/eslint-config": "*",
-    "@mariosantosdev/tokens": "*",
-    "@mariosantosdev/ts-config": "*",
+    "@naommyUI/eslint-config": "*",
+    "@naommyUI/tokens": "*",
+    "@naommyUI/ts-config": "*",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",

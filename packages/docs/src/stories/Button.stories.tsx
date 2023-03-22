@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@mariosantosdev/react'
+import { Button, ButtonProps } from '@naommyUI/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
