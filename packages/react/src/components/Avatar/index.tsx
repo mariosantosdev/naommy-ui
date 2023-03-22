@@ -14,3 +14,5 @@ export const Avatar: React.FC<AvatarProps> = (props) => (
     </AvatarFallback>
   </AvatarContainer>
 )
+
+Avatar.displayName = 'Avatar'

@@ -28,3 +28,5 @@ export const MultiStep: React.FC<MultiStepProps> = ({
     </MultiStepBar>
   </MultiStepContainer>
 )
+
+MultiStep.displayName = 'MultiStep'

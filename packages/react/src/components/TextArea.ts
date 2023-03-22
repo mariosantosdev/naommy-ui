@@ -36,3 +36,5 @@ export const TextArea = styled('textarea', {
 export interface TextAreaProps extends ComponentProps<typeof TextArea> {
   prefix?: string
 }
+
+TextArea.displayName = 'TextArea'
