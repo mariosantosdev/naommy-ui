@@ -1,8 +1,5 @@
-import { styled, keyframes } from '../styles'
 import * as RadixCheckbox from '@radix-ui/react-checkbox'
-import { Check } from 'phosphor-react'
-import { ComponentProps } from './@types/generic'
-import React from 'react'
+import { styled, keyframes } from '../../styles'
 
 export const CheckboxContainer = styled(RadixCheckbox.Root, {
   all: 'unset',
@@ -51,14 +48,3 @@ export const CheckboxIndicator = styled(RadixCheckbox.Indicator, {
     animation: `${slideOut} 200ms ease-out`,
   },
 })
-
-export interface CheckboxProps
-  extends ComponentProps<typeof CheckboxContainer> {}
-
-export const Checkbox: React.FC<CheckboxProps> = (props) => (
-  <CheckboxContainer {...props}>
-    <CheckboxIndicator asChild>
-      <Check weight="bold" />
-    </CheckboxIndicator>
-  </CheckboxContainer>
-)
