@@ -1,6 +1,4 @@
-import React from 'react'
-import { styled } from '../styles'
-import { ComponentProps } from './@types/generic'
+import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
   backgroundColor: '$gray900',
@@ -49,14 +47,3 @@ export const Input = styled('input', {
     color: '$gray400',
   },
 })
-
-export interface TextInputProps extends ComponentProps<typeof Input> {
-  prefix?: string
-}
-
-export const TextInput: React.FC<TextInputProps> = ({ prefix, ...rest }) => (
-  <TextInputContainer>
-    {prefix ? <Prefix>{prefix}</Prefix> : null}
-    <Input {...rest} />
-  </TextInputContainer>
-)
