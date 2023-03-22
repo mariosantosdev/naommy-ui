@@ -23,6 +23,11 @@ export const CheckboxContainer = styled(RadixCheckbox.Root, {
   '&:focus': {
     border: '2px solid $ignite300',
   },
+
+  '&:disabled': {
+    opacity: 0.5,
+    cursor: 'not-allowed',
+  },
 })
 
 const slideIn = keyframes({
