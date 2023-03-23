@@ -48,6 +48,7 @@ declare const radii: {
 
 declare const fonts: {
     default: string;
+    Inter: string;
     code: string;
 };
 

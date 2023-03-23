@@ -84,6 +84,7 @@ var radii = {
 // src/fonts.ts
 var fonts = {
   default: "Roboto, sans-serif",
+  Inter: "Inter, sans-serif",
   code: "monospace"
 };
 
