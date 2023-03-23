@@ -1,4 +1,4 @@
-# NaommyUI
+# Naommy-ui
 
 ### This Design System was created in Ignite Rocketseat's ReactJS course.
 

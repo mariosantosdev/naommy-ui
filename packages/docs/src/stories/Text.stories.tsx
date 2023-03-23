@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@naommyUI/react'
+import { Text, TextProps } from '@naommy-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

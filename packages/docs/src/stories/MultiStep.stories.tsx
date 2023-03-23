@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, MultiStep, MultiStepProps } from '@naommyUI/react'
+import { Box, MultiStep, MultiStepProps } from '@naommy-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

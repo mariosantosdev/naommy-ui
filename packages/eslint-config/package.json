@@ -1,5 +1,5 @@
 {
-    "name": "@naommyUI/eslint-config",
+    "name": "@naommy-ui/eslint-config",
     "license": "MIT",
     "private": true,
     "devDependencies": {

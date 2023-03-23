@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@naommyUI/react'
+import { Heading, HeadingProps } from '@naommy-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

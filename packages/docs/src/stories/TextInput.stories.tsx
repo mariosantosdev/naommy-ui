@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text, TextInput, TextInputProps } from '@naommyUI/react'
+import { Box, Text, TextInput, TextInputProps } from '@naommy-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

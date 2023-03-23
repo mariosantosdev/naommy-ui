@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from '@naommyUI/react'
+import { Avatar, AvatarProps } from '@naommy-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

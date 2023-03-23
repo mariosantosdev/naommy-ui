@@ -1,6 +1,6 @@
 import React from 'react'
 import { ArrowRight } from 'phosphor-react'
-import { Button, ButtonProps } from '@naommyUI/react'
+import { Button, ButtonProps } from '@naommy-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

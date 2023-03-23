@@ -1,5 +1,5 @@
 {
-  "name": "@naommyUI/tokens",
+  "name": "@naommy-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@naommyUI/ts-config": "*",
-    "@naommyUI/eslint-config": "*",
+    "@naommy-ui/ts-config": "*",
+    "@naommy-ui/eslint-config": "*",
     "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   }

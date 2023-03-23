@@ -1,4 +1,4 @@
 {
-    "extends": "@naommyUI/ts-config/react.json",
+    "extends": "@naommy-ui/ts-config/react.json",
     "include": ["src"]
 }

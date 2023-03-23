@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@naommyUI/tokens'
+} from '@naommy-ui/tokens'
 
 export const {
   styled,
