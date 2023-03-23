@@ -1,0 +1,2 @@
+import{A as t}from"./index-6d1a7261.js";import"./index-8f31a91e.js";import"./iframe-285dfcb3.js";import"./index-d4769b86.js";import"./jsx-runtime-2cffc4a6.js";const m={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/mariosantosdev.png",alt:"Mário Santos"}},p={},c={args:{src:void 0}},n=["Primary","WithFallback"];export{p as Primary,c as WithFallback,n as __namedExportsOrder,m as default};
+//# sourceMappingURL=Avatar.stories-208ab75a.js.map
