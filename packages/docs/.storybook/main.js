@@ -1,3 +1,5 @@
+const { mergeConfig } = require("vite");
+
 module.exports = {
   stories: ["../src/pages/**/*.stories.mdx", "../src/stories/**/*.stories.tsx"],
   addons: [
@@ -13,11 +15,7 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  viteFinal: (config, { configType }) => {
-    if (configType === "PRODUCTION") {
-      config.base = "/naommy-ui";
-    }
-
-    return config;
+  viteFinal: (config) => {
+    return mergeConfig(config, { base: "./" });
   },
 };
